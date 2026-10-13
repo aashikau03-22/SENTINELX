@@ -1,0 +1,26 @@
+# Environment
+.env
+!.env.example
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Databases / local artifacts
+*.db
+*.pkl
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+
+# Logs / editors
+logs
+*.log
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
